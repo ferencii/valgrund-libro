@@ -1,0 +1,354 @@
+/* Fuentes libres (SIL Open Font License 1.1) servidas en local; ver assets/fuentes/LICENCIAS */
+/* eb-garamond-latin-ext-400-normal */
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-display: block;
+  font-weight: 400;
+  src: url(fuentes/eb-garamond-latin-ext-400-normal.woff2) format('woff2');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+
+/* eb-garamond-latin-400-normal */
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-display: block;
+  font-weight: 400;
+  src: url(fuentes/eb-garamond-latin-400-normal.woff2) format('woff2');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/* eb-garamond-latin-ext-400-italic */
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: italic;
+  font-display: block;
+  font-weight: 400;
+  src: url(fuentes/eb-garamond-latin-ext-400-italic.woff2) format('woff2');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+
+/* eb-garamond-latin-400-italic */
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: italic;
+  font-display: block;
+  font-weight: 400;
+  src: url(fuentes/eb-garamond-latin-400-italic.woff2) format('woff2');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/* eb-garamond-latin-ext-600-normal */
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-display: block;
+  font-weight: 600;
+  src: url(fuentes/eb-garamond-latin-ext-600-normal.woff2) format('woff2');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+
+/* eb-garamond-latin-600-normal */
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-display: block;
+  font-weight: 600;
+  src: url(fuentes/eb-garamond-latin-600-normal.woff2) format('woff2');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/* im-fell-english-latin-400-normal */
+@font-face {
+  font-family: 'IM Fell English';
+  font-style: normal;
+  font-display: block;
+  font-weight: 400;
+  src: url(fuentes/im-fell-english-latin-400-normal.woff2) format('woff2');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/* im-fell-english-latin-400-italic */
+@font-face {
+  font-family: 'IM Fell English';
+  font-style: italic;
+  font-display: block;
+  font-weight: 400;
+  src: url(fuentes/im-fell-english-latin-400-italic.woff2) format('woff2');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/* im-fell-english-sc-latin-400-normal */
+@font-face {
+  font-family: 'IM Fell English SC';
+  font-style: normal;
+  font-display: block;
+  font-weight: 400;
+  src: url(fuentes/im-fell-english-sc-latin-400-normal.woff2) format('woff2');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/* cormorant-garamond-latin-ext-700-normal */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-display: block;
+  font-weight: 700;
+  src: url(fuentes/cormorant-garamond-latin-ext-700-normal.woff2) format('woff2');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+
+/* cormorant-garamond-latin-700-normal */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-display: block;
+  font-weight: 700;
+  src: url(fuentes/cormorant-garamond-latin-700-normal.woff2) format('woff2');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/* unifrakturmaguntia-latin-400-normal */
+@font-face {
+  font-family: 'UnifrakturMaguntia';
+  font-style: normal;
+  font-display: block;
+  font-weight: 400;
+  src: url(fuentes/unifrakturmaguntia-latin-400-normal.woff2) format('woff2');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/* noto-sans-runic-runic-400-normal */
+@font-face {
+  font-family: 'Noto Sans Runic';
+  font-style: normal;
+  font-display: block;
+  font-weight: 400;
+  src: url(fuentes/noto-sans-runic-runic-400-normal.woff2) format('woff2');
+  unicode-range: U+16A0-16F8;
+}
+
+
+/* noto-sans-runic-latin-ext-400-normal */
+@font-face {
+  font-family: 'Noto Sans Runic';
+  font-style: normal;
+  font-display: block;
+  font-weight: 400;
+  src: url(fuentes/noto-sans-runic-latin-ext-400-normal.woff2) format('woff2');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+
+/* noto-sans-runic-latin-400-normal */
+@font-face {
+  font-family: 'Noto Sans Runic';
+  font-style: normal;
+  font-display: block;
+  font-weight: 400;
+  src: url(fuentes/noto-sans-runic-latin-400-normal.woff2) format('woff2');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/* ==========================================================================
+   Valgrund: libro — tipografía y piezas comunes (libro visual e impresión)
+   ========================================================================== */
+:root {
+  --tinta: #2a1c10;
+  --tinta-suave: #402c1a;
+  --rojo: #721a10;
+  --rojo-oscuro: #5e140c;
+  --oro: #d4af5a;
+  --oro-claro: #f3dc9a;
+  --cuero: #3d1d11;
+  --pergamino: #efdfbc;
+  --foco: #ffd24a;
+  --fuente-texto: 'EB Garamond', 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --fuente-titulos: 'IM Fell English', 'EB Garamond', Georgia, serif;
+  --fuente-versalitas: 'IM Fell English SC', 'IM Fell English', 'EB Garamond', Georgia, serif;
+  --fuente-capitular: 'Cormorant Garamond', 'EB Garamond', Georgia, serif;
+  --fuente-fraktur: 'UnifrakturMaguntia', 'IM Fell English', serif;
+  --fuente-runas: 'Noto Sans Runic', 'Segoe UI Historic', sans-serif;
+}
+
+.solo-lector {
+  position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; border: 0;
+}
+
+/* --- Texto del libro ------------------------------------------------------ */
+.texto { font-family: var(--fuente-texto); color: var(--tinta); font-kerning: normal; font-variant-ligatures: common-ligatures; }
+.texto p { margin: 0; text-indent: 1.35em; text-align: justify; hyphens: auto; -webkit-hyphens: auto; orphans: 2; widows: 2; }
+.texto p.sin-sangria, .texto p.continua,
+.texto :is(h2, h3, .separador, figure, .cita, .entradilla, .apertura, .lista) + p { text-indent: 0; }
+.texto p.corta { text-align-last: justify; }
+.texto em { font-style: italic; }
+.texto strong { font-weight: 600; }
+.texto a { color: var(--rojo-oscuro); }
+
+.texto .entradilla { text-indent: 0; text-align: center; font-style: italic; color: var(--tinta-suave); margin: 0 1.2em .9em; hyphens: manual; }
+.texto .entradilla em { font-style: italic; }
+
+.texto h3 { font-family: var(--fuente-versalitas); font-weight: normal; color: var(--rojo); text-align: center; letter-spacing: .06em; font-size: 1.12em; margin: .8em 0 .45em; }
+
+/* Inicial capitular iluminada: el texto sigue intacto (solo cambia la primera letra). */
+.texto p.capitular { text-indent: 0; }
+.texto p.capitular::first-letter {
+  float: left;
+  font-family: var(--fuente-capitular);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3.55em;
+  line-height: .84;
+  padding: .16em .15em .06em;
+  margin: .07em .14em 0 0;
+  color: var(--oro-claro);
+  background: url(ornamentos/capitular.svg) center / 100% 100% no-repeat, var(--rojo-oscuro);
+  text-shadow: 0 1px 0 #3a0b06, 0 -1px 0 rgba(255, 240, 200, .25);
+  box-shadow: 1px 2px 3px rgba(40, 20, 5, .35);
+}
+
+/* Cantares y citas */
+.texto .cita { margin: .55em 0 .7em 1.3em; font-style: italic; color: var(--tinta); }
+.texto .cita p { text-indent: 0; text-align: left; hyphens: manual; }
+.texto .cita p + p { margin-top: .5em; }
+.texto .cita.estrofa p:first-child:not(:only-child) { font-style: normal; font-family: var(--fuente-versalitas); color: var(--rojo); letter-spacing: .05em; margin-left: -1.3em; text-align: center; }
+.texto .cita.estrofa p:first-child em { font-style: normal; }
+.texto .cita.estrofa p { white-space: pre-wrap; }
+/* Cesura del verso: el espacio amplio del original se conserva (carácter U+2003) y se ensancha un poco */
+.texto .cesura { display: inline-block; width: 1.6em; white-space: pre; }
+
+.texto .lista { margin: .4em 0 .6em 1.2em; }
+.texto .lista ul, .texto .lista ol { margin: 0; padding-left: 1em; }
+
+/* Separador de escena */
+.texto .separador { height: 1.5em; margin: .55em 0; background: url(ornamentos/separador.svg) center / auto 100% no-repeat; }
+/* Con la viñeta de runas de Dibujín (1920×210): se ve entera (contain) y se funde con el pergamino */
+.texto .separador.con-banda { height: auto; aspect-ratio: 1920 / 210; width: 82%; margin: .6em auto; background-size: contain; background-position: center; }
+
+/* Ilustraciones */
+.texto figure { margin: .7em 0 .8em; text-align: center; break-inside: avoid; }
+.texto figure img {
+  /* Las láminas traen su orla pintada: nunca se recortan (tamaño natural escalado, sin object-fit: cover) */
+  display: block; margin: 0 auto; max-width: 100%; height: auto; object-fit: contain;
+  box-shadow: 1px 2px 6px rgba(40, 20, 5, .28);
+}
+.texto figure.fig--vineta img { max-width: 58%; }
+.texto figcaption { margin-top: .55em; font-style: italic; font-size: .88em; color: var(--tinta-suave); text-align: center; line-height: 1.3; hyphens: manual; }
+.texto figure.fig--marcador figcaption::before { content: ''; }
+
+/* Remate decorativo de fin de sección */
+.texto .remate { margin: .9em auto 0; width: 30%; aspect-ratio: 1; background-size: contain; background-repeat: no-repeat; background-position: center; }
+.texto .remate--svg { width: 22%; background-image: url(ornamentos/valknut-tinta.svg); }
+/* ==========================================================================
+   Valgrund: hoja de impresión (PDF con Chromium)
+   Página de 160 × 240 mm, pergamino a sangre, cubiertas de cuero, folios y runas en los márgenes.
+   ========================================================================== */
+@page {
+  size: 160mm 240mm;
+  margin: 20mm 17mm 22mm 17mm;
+  background: #efdfbc url(texturas/pergamino.jpg) -17mm -20mm / 160mm 240mm no-repeat;
+  @bottom-center { content: counter(page); font-family: 'IM Fell English', Georgia, serif; font-size: 10.5pt; color: #4a3420; vertical-align: top; padding-top: 5mm; }
+}
+@page :left { @left-middle { content: ''; background: url(ornamentos/runas-margen.svg) center / 5mm 150mm no-repeat; width: 9mm; } }
+@page :right { @right-middle { content: ''; background: url(ornamentos/runas-margen.svg) center / 5mm 150mm no-repeat; width: 9mm; } }
+@page :first { @bottom-center { content: none; } }
+@page cuero {
+  margin: 0;
+  background: #3d1d11 url(texturas/cuero.jpg) 0 0 / 160mm 240mm no-repeat;
+  @bottom-center { content: none; } @left-middle { content: none; } @right-middle { content: none; }
+}
+@page preliminar { @bottom-center { content: none; } @left-middle { content: none; } @right-middle { content: none; } }
+@page lamina { @bottom-center { content: none; } }
+
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body { margin: 0; font-size: 11.2pt; line-height: 1.42; background: transparent; }
+.texto p { orphans: 3; widows: 3; }
+.solo-pantalla { display: none !important; }
+
+.hoja { break-after: page; position: relative; }
+.preliminar { page: preliminar; height: 198mm; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
+.preliminar p { text-indent: 0 !important; text-align: center; }
+
+/* Cubiertas */
+.cuero-pdf { page: cuero; width: 160mm; height: 240mm; position: relative; color: #ecc96e; text-align: center; break-after: page; overflow: hidden; }
+.cuero-pdf .marco { position: absolute; inset: 9mm; }
+.cuero-pdf .marco .lado { position: absolute; }
+.cuero-pdf .arriba, .cuero-pdf .abajo { left: 0; right: 0; height: 7mm; background: url(ornamentos/trenza.svg) center / auto 100% repeat-x; }
+.cuero-pdf .arriba { top: 0; } .cuero-pdf .abajo { bottom: 0; }
+.cuero-pdf .izq, .cuero-pdf .der { top: 0; bottom: 0; width: 7mm; background: url(ornamentos/trenza-v.svg) center / 100% auto repeat-y; }
+.cuero-pdf .izq { left: 0; } .cuero-pdf .der { right: 0; }
+.cuero-pdf .esq { width: 12mm; height: 12mm; background: url(ornamentos/esquina.svg) center / contain no-repeat; }
+.cuero-pdf .e1 { top: -2.5mm; left: -2.5mm; } .cuero-pdf .e2 { top: -2.5mm; right: -2.5mm; }
+.cuero-pdf .e3 { bottom: -2.5mm; left: -2.5mm; } .cuero-pdf .e4 { bottom: -2.5mm; right: -2.5mm; }
+.cuero-pdf .contenido { position: absolute; inset: 24mm 20mm; display: flex; flex-direction: column; align-items: center; justify-content: space-between; }
+.dorado { color: #ecc96e; text-shadow: 0 .3mm 0 #2a1206, 0 -.2mm 0 rgba(255, 240, 190, .35); }
+.cuero-pdf .marca { font: 44pt/1 var(--fuente-fraktur); margin: 0; }
+.cuero-pdf .runas { font-family: var(--fuente-runas); letter-spacing: .4em; font-size: 12pt; margin: 2mm 0 0; }
+.cuero-pdf .titulo { font: normal 25pt/1.08 var(--fuente-titulos); margin: 0; }
+.cuero-pdf .subtitulo { font: italic 13pt/1.3 var(--fuente-texto); margin: 2mm 0 0; color: #e8cf93; }
+.cuero-pdf .placa img { display: block; max-width: 116mm; max-height: 92mm; object-fit: contain; border: .6mm solid #b8903f; box-shadow: 0 0 0 .6mm #2a1206, 0 0 0 1.2mm #d4af5a; }
+.cuero-pdf .emblema { width: 62mm; height: 62mm; background: url(ornamentos/emblema.svg) center / contain no-repeat; }
+.cuero-pdf .contra { font: italic 12pt/1.5 var(--fuente-texto); color: #f0dcae; max-width: 100mm; }
+.cuero-pdf .valknut { width: 28mm; height: 28mm; background: url(ornamentos/valknut.svg) center / contain no-repeat; margin: 0 auto; }
+
+.guarda-pdf { page: cuero; width: 160mm; height: 240mm; background: #22302b url(texturas/guarda.jpg) center / cover; break-after: page; position: relative; }
+
+.portadilla__marca { font: 40pt/1 var(--fuente-fraktur); color: var(--rojo-oscuro); margin: 0 0 3mm; }
+.portadilla__runas { font-family: var(--fuente-runas); color: #6f5032; letter-spacing: .35em; font-size: 12pt; margin: 0 0 12mm; }
+.portadilla__titulo { font: normal 26pt/1.1 var(--fuente-titulos); color: var(--tinta); margin: 0 0 4mm; }
+.portadilla__subtitulo { font: italic 14pt/1.3 var(--fuente-texto); color: var(--tinta-suave); margin: 0 0 10mm; }
+.portadilla__emblema { width: 40mm; height: 40mm; background: url(ornamentos/valknut-tinta.svg) center / contain no-repeat; margin: 6mm auto 10mm; }
+.portadilla__pie { font-family: var(--fuente-versalitas); letter-spacing: .14em; color: var(--rojo); font-size: 10pt; margin-top: 10mm; }
+.sello-relleno { display: inline-block; margin-top: 8mm; padding: 1.5mm 4mm; transform: rotate(-3deg); border: .6mm solid var(--rojo); color: var(--rojo); font-family: var(--fuente-versalitas); letter-spacing: .1em; font-size: 10pt; }
+
+/* Índice */
+.indice-pdf { page: preliminar; }
+.indice-pdf h2 { font: normal 22pt/1.2 var(--fuente-titulos); text-align: center; margin: 8mm 0 3mm; }
+.indice-pdf .adorno { height: 7mm; background: url(ornamentos/separador.svg) center / contain no-repeat; margin: 0 auto 8mm; width: 70%; }
+.indice-pdf ol { list-style: none; margin: 0; padding: 0; }
+.indice-pdf li { margin: 0 0 3mm; }
+.indice-pdf a { display: flex; align-items: baseline; gap: 2mm; color: var(--tinta); text-decoration: none; }
+.indice-pdf .et { font-family: var(--fuente-versalitas); color: var(--rojo); font-size: 9.5pt; letter-spacing: .06em; flex: none; }
+.indice-pdf .puntos { flex: 1 1 auto; border-bottom: .5mm dotted rgba(74, 52, 32, .6); transform: translateY(-1mm); min-width: 5mm; }
+.indice-pdf .num { flex: none; }
+
+/* Secciones */
+.seccion { break-before: page; position: relative; }
+.apertura { text-align: center; margin: 14mm 0 10mm; display: flex; flex-direction: column; align-items: center; }
+.apertura > * { width: 100%; }
+.apertura__banda { height: 8mm; margin: 0 auto 6mm; width: 92%; background: url(ornamentos/trenza-tinta.svg) center / auto 100% repeat-x; opacity: .85; }
+.apertura__banda.con-imagen { background-size: contain; background-repeat: no-repeat; background-position: center; height: auto; aspect-ratio: 1920 / 210; opacity: 1; }
+.apertura__etiqueta { margin: 0 0 2mm; font-family: var(--fuente-versalitas); color: var(--rojo); letter-spacing: .22em; font-size: 11pt; }
+.apertura__titulo { margin: 0 auto; font: normal 22pt/1.12 var(--fuente-titulos); color: var(--tinta); max-width: 92%; }
+.apertura__adorno { height: 6mm; margin: 5mm auto 0; width: 60%; background: url(ornamentos/separador.svg) center / contain no-repeat; }
+/* Lámina de apertura: arriba de la página de apertura (en el DOM, tras el título) */
+.apertura--con-lamina { margin-top: 0; }
+.apertura--con-lamina .apertura__titulo { font-size: 20pt; }
+.texto .apertura .fig--apertura { order: -1; margin: 0 0 7mm; }
+.texto .apertura .fig--apertura img { width: 100%; max-height: 90mm; object-fit: contain; }
+
+/* Ilustraciones: tamaño natural escalado, nunca recortadas */
+.texto figure img { width: 100%; height: auto; max-height: 150mm; object-fit: contain; box-shadow: none; } /* sin sombras difuminadas: Chromium las rasteriza */
+.texto figure.fig--vineta img { width: 62%; }
+.texto figure { position: relative; }
+.texto figure.fig--panoramica { margin: 5mm -9mm 6mm; }
+.texto figure.fig--lamina { page: lamina; break-before: page; break-after: page; height: 190mm; display: flex; flex-direction: column; justify-content: center; margin: 0; }
+.texto figure.fig--lamina img { max-height: 175mm; }
+.texto .separador.con-banda { width: 78%; margin: 3.5mm auto; }
+.remate { width: 30mm !important; height: 30mm; margin: 6mm auto 0; break-before: avoid; }
+
+.fin { break-before: page; page: preliminar; height: 198mm; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
+.fin__palabra { font: 36pt/1 var(--fuente-fraktur); color: var(--rojo-oscuro); margin: 0 0 6mm; }
+.colofon { font-size: 9.5pt; color: var(--tinta-suave); max-width: 100mm; text-align: center !important; text-indent: 0 !important; }
+
+/* Marcas temporales para localizar páginas en la primera pasada */
+.marca-pagina { position: absolute; left: 0; top: 0; font-size: 2pt; line-height: 1; color: #efdfbc; white-space: nowrap; }
+
+@media screen {
+  body { background: #2a1a10; padding: 10mm 0; }
+  .vista-hoja { width: 160mm; margin: 0 auto 8mm; background: #efdfbc url(texturas/pergamino.jpg) center / cover; padding: 20mm 17mm; box-shadow: 0 4px 20px #000; }
+}
+
+/* Runas dibujadas como trazos (no son texto: el lector de pantalla del PDF no las lee) */
+.runas-svg { display: inline-block; height: .9em; width: auto; vertical-align: middle; fill: currentColor; }
+
+/* Títulos y separadores no se quedan solos al pie de página; las estrofas no se parten */
+.texto h3, .texto .separador { break-after: avoid; }
+.texto .cita.estrofa { break-inside: avoid; }

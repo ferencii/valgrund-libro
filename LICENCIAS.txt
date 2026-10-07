@@ -1,0 +1,13 @@
+Libro web de Valgrund
+
+Fuentes (SIL Open Font License 1.1, textos completos en assets/fuentes/LICENCIAS/):
+- EB Garamond (Georg Duffner, Octavio Pardo)
+- IM FELL English e IM FELL English SC (Igino Marini)
+- Cormorant Garamond (Christian Thalmann)
+- UnifrakturMaguntia (J. Victor Gaultney, Peter Wiegel)
+- Noto Sans Runic (Google)
+
+Código de terceros:
+- page-flip / StPageFlip 2.0.7 (Nodlik), licencia MIT.
+
+Texturas, ornamentos, sonido e ilustraciones de relleno: generados por el propio motor.

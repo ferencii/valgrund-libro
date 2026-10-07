@@ -1,0 +1,551 @@
+/* Fuentes libres (SIL Open Font License 1.1) servidas en local; ver assets/fuentes/LICENCIAS */
+/* eb-garamond-latin-ext-400-normal */
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-display: block;
+  font-weight: 400;
+  src: url(fuentes/eb-garamond-latin-ext-400-normal.woff2) format('woff2');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+
+/* eb-garamond-latin-400-normal */
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-display: block;
+  font-weight: 400;
+  src: url(fuentes/eb-garamond-latin-400-normal.woff2) format('woff2');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/* eb-garamond-latin-ext-400-italic */
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: italic;
+  font-display: block;
+  font-weight: 400;
+  src: url(fuentes/eb-garamond-latin-ext-400-italic.woff2) format('woff2');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+
+/* eb-garamond-latin-400-italic */
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: italic;
+  font-display: block;
+  font-weight: 400;
+  src: url(fuentes/eb-garamond-latin-400-italic.woff2) format('woff2');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/* eb-garamond-latin-ext-600-normal */
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-display: block;
+  font-weight: 600;
+  src: url(fuentes/eb-garamond-latin-ext-600-normal.woff2) format('woff2');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+
+/* eb-garamond-latin-600-normal */
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-display: block;
+  font-weight: 600;
+  src: url(fuentes/eb-garamond-latin-600-normal.woff2) format('woff2');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/* im-fell-english-latin-400-normal */
+@font-face {
+  font-family: 'IM Fell English';
+  font-style: normal;
+  font-display: block;
+  font-weight: 400;
+  src: url(fuentes/im-fell-english-latin-400-normal.woff2) format('woff2');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/* im-fell-english-latin-400-italic */
+@font-face {
+  font-family: 'IM Fell English';
+  font-style: italic;
+  font-display: block;
+  font-weight: 400;
+  src: url(fuentes/im-fell-english-latin-400-italic.woff2) format('woff2');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/* im-fell-english-sc-latin-400-normal */
+@font-face {
+  font-family: 'IM Fell English SC';
+  font-style: normal;
+  font-display: block;
+  font-weight: 400;
+  src: url(fuentes/im-fell-english-sc-latin-400-normal.woff2) format('woff2');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/* cormorant-garamond-latin-ext-700-normal */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-display: block;
+  font-weight: 700;
+  src: url(fuentes/cormorant-garamond-latin-ext-700-normal.woff2) format('woff2');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+
+/* cormorant-garamond-latin-700-normal */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-display: block;
+  font-weight: 700;
+  src: url(fuentes/cormorant-garamond-latin-700-normal.woff2) format('woff2');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/* unifrakturmaguntia-latin-400-normal */
+@font-face {
+  font-family: 'UnifrakturMaguntia';
+  font-style: normal;
+  font-display: block;
+  font-weight: 400;
+  src: url(fuentes/unifrakturmaguntia-latin-400-normal.woff2) format('woff2');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/* noto-sans-runic-runic-400-normal */
+@font-face {
+  font-family: 'Noto Sans Runic';
+  font-style: normal;
+  font-display: block;
+  font-weight: 400;
+  src: url(fuentes/noto-sans-runic-runic-400-normal.woff2) format('woff2');
+  unicode-range: U+16A0-16F8;
+}
+
+
+/* noto-sans-runic-latin-ext-400-normal */
+@font-face {
+  font-family: 'Noto Sans Runic';
+  font-style: normal;
+  font-display: block;
+  font-weight: 400;
+  src: url(fuentes/noto-sans-runic-latin-ext-400-normal.woff2) format('woff2');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+
+/* noto-sans-runic-latin-400-normal */
+@font-face {
+  font-family: 'Noto Sans Runic';
+  font-style: normal;
+  font-display: block;
+  font-weight: 400;
+  src: url(fuentes/noto-sans-runic-latin-400-normal.woff2) format('woff2');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/* ==========================================================================
+   Valgrund: libro — tipografía y piezas comunes (libro visual e impresión)
+   ========================================================================== */
+:root {
+  --tinta: #2a1c10;
+  --tinta-suave: #402c1a;
+  --rojo: #721a10;
+  --rojo-oscuro: #5e140c;
+  --oro: #d4af5a;
+  --oro-claro: #f3dc9a;
+  --cuero: #3d1d11;
+  --pergamino: #efdfbc;
+  --foco: #ffd24a;
+  --fuente-texto: 'EB Garamond', 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --fuente-titulos: 'IM Fell English', 'EB Garamond', Georgia, serif;
+  --fuente-versalitas: 'IM Fell English SC', 'IM Fell English', 'EB Garamond', Georgia, serif;
+  --fuente-capitular: 'Cormorant Garamond', 'EB Garamond', Georgia, serif;
+  --fuente-fraktur: 'UnifrakturMaguntia', 'IM Fell English', serif;
+  --fuente-runas: 'Noto Sans Runic', 'Segoe UI Historic', sans-serif;
+}
+
+.solo-lector {
+  position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; border: 0;
+}
+
+/* --- Texto del libro ------------------------------------------------------ */
+.texto { font-family: var(--fuente-texto); color: var(--tinta); font-kerning: normal; font-variant-ligatures: common-ligatures; }
+.texto p { margin: 0; text-indent: 1.35em; text-align: justify; hyphens: auto; -webkit-hyphens: auto; orphans: 2; widows: 2; }
+.texto p.sin-sangria, .texto p.continua,
+.texto :is(h2, h3, .separador, figure, .cita, .entradilla, .apertura, .lista) + p { text-indent: 0; }
+.texto p.corta { text-align-last: justify; }
+.texto em { font-style: italic; }
+.texto strong { font-weight: 600; }
+.texto a { color: var(--rojo-oscuro); }
+
+.texto .entradilla { text-indent: 0; text-align: center; font-style: italic; color: var(--tinta-suave); margin: 0 1.2em .9em; hyphens: manual; }
+.texto .entradilla em { font-style: italic; }
+
+.texto h3 { font-family: var(--fuente-versalitas); font-weight: normal; color: var(--rojo); text-align: center; letter-spacing: .06em; font-size: 1.12em; margin: .8em 0 .45em; }
+
+/* Inicial capitular iluminada: el texto sigue intacto (solo cambia la primera letra). */
+.texto p.capitular { text-indent: 0; }
+.texto p.capitular::first-letter {
+  float: left;
+  font-family: var(--fuente-capitular);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3.55em;
+  line-height: .84;
+  padding: .16em .15em .06em;
+  margin: .07em .14em 0 0;
+  color: var(--oro-claro);
+  background: url(ornamentos/capitular.svg) center / 100% 100% no-repeat, var(--rojo-oscuro);
+  text-shadow: 0 1px 0 #3a0b06, 0 -1px 0 rgba(255, 240, 200, .25);
+  box-shadow: 1px 2px 3px rgba(40, 20, 5, .35);
+}
+
+/* Cantares y citas */
+.texto .cita { margin: .55em 0 .7em 1.3em; font-style: italic; color: var(--tinta); }
+.texto .cita p { text-indent: 0; text-align: left; hyphens: manual; }
+.texto .cita p + p { margin-top: .5em; }
+.texto .cita.estrofa p:first-child:not(:only-child) { font-style: normal; font-family: var(--fuente-versalitas); color: var(--rojo); letter-spacing: .05em; margin-left: -1.3em; text-align: center; }
+.texto .cita.estrofa p:first-child em { font-style: normal; }
+.texto .cita.estrofa p { white-space: pre-wrap; }
+/* Cesura del verso: el espacio amplio del original se conserva (carácter U+2003) y se ensancha un poco */
+.texto .cesura { display: inline-block; width: 1.6em; white-space: pre; }
+
+.texto .lista { margin: .4em 0 .6em 1.2em; }
+.texto .lista ul, .texto .lista ol { margin: 0; padding-left: 1em; }
+
+/* Separador de escena */
+.texto .separador { height: 1.5em; margin: .55em 0; background: url(ornamentos/separador.svg) center / auto 100% no-repeat; }
+/* Con la viñeta de runas de Dibujín (1920×210): se ve entera (contain) y se funde con el pergamino */
+.texto .separador.con-banda { height: auto; aspect-ratio: 1920 / 210; width: 82%; margin: .6em auto; background-size: contain; background-position: center; }
+
+/* Ilustraciones */
+.texto figure { margin: .7em 0 .8em; text-align: center; break-inside: avoid; }
+.texto figure img {
+  /* Las láminas traen su orla pintada: nunca se recortan (tamaño natural escalado, sin object-fit: cover) */
+  display: block; margin: 0 auto; max-width: 100%; height: auto; object-fit: contain;
+  box-shadow: 1px 2px 6px rgba(40, 20, 5, .28);
+}
+.texto figure.fig--vineta img { max-width: 58%; }
+.texto figcaption { margin-top: .55em; font-style: italic; font-size: .88em; color: var(--tinta-suave); text-align: center; line-height: 1.3; hyphens: manual; }
+.texto figure.fig--marcador figcaption::before { content: ''; }
+
+/* Remate decorativo de fin de sección */
+.texto .remate { margin: .9em auto 0; width: 30%; aspect-ratio: 1; background-size: contain; background-repeat: no-repeat; background-position: center; }
+.texto .remate--svg { width: 22%; background-image: url(ornamentos/valknut-tinta.svg); }
+/* ==========================================================================
+   Valgrund: libro ilustrado (modo visual)
+   ========================================================================== */
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; }
+body {
+  font-family: var(--fuente-texto);
+  color: #f3e6c8;
+  background: #140b06 radial-gradient(ellipse at 50% 40%, #3a2214 0%, #1d100a 55%, #0d0704 100%) fixed;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+body.con-scroll { overflow: auto; }
+
+/* --- Foco visible en todo ------------------------------------------------- */
+:focus-visible {
+  outline: 3px solid var(--foco);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 6px #120804;
+  border-radius: 3px;
+}
+
+/* --- Enlace al modo accesible: primer elemento, siempre visible ------------ */
+.saltar-accesible {
+  flex: none; display: inline-block; padding: .45em .9em;
+  font: 600 1rem/1.2 var(--fuente-texto);
+  color: #140b06; background: var(--oro-claro);
+  border: 2px solid #140b06; border-radius: 4px;
+  text-decoration: none;
+}
+.saltar-accesible:hover { background: #fff1c4; text-decoration: underline; }
+
+/* --- Barra de controles --------------------------------------------------- */
+.barra {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .4rem 1rem;
+  padding: 8px 12px 8px 16px; min-height: 56px;
+  background: linear-gradient(#2c170d, #1c0e07);
+  border-bottom: 1px solid #6b4a17;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .5);
+  position: relative; z-index: 20;
+}
+.barra__titulo {
+  margin: 0; font: normal 1.1rem/1.15 var(--fuente-titulos); color: var(--oro-claro);
+  letter-spacing: .02em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 40vw;
+}
+.barra__titulo .marca { font-family: var(--fuente-fraktur); font-size: 1.3em; margin-right: .35em; color: var(--oro); }
+.controles { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; padding: 0; list-style: none; }
+.boton {
+  display: inline-flex; align-items: center; gap: .4em;
+  min-height: 40px; padding: .35em .8em;
+  font: 1rem/1.1 var(--fuente-texto); color: #f6ead0;
+  background: linear-gradient(#4a2a17, #34190d); border: 1px solid #a07a3a; border-radius: 4px;
+  cursor: pointer; text-decoration: none;
+}
+.boton:hover { background: linear-gradient(#5d3720, #41200f); color: #fff; }
+.boton[aria-disabled='true'] { opacity: .55; cursor: not-allowed; }
+.boton[aria-pressed='true'], .boton.activo { background: linear-gradient(#7a5418, #5b3c0f); border-color: var(--oro-claro); }
+.boton .icono { width: .9em; height: .9em; flex: none; vertical-align: -.08em; }
+
+/* --- Aviso de reanudación ------------------------------------------------- */
+.aviso {
+  position: relative; z-index: 15;
+  display: flex; flex-wrap: wrap; gap: .5rem 1rem; align-items: center; justify-content: center;
+  margin: 0; padding: 6px 12px; font-size: 1rem;
+  background: #f3e3bd; color: #2a1c10; border-bottom: 2px solid #6b4a17;
+}
+.aviso[hidden] { display: none; }
+.aviso .boton { color: #f6ead0; min-height: 34px; }
+
+/* --- Escenario y libro ---------------------------------------------------- */
+.escenario {
+  position: relative; display: flex; align-items: center; justify-content: center;
+  height: calc(100% - var(--alto-barra, 56px) - var(--alto-pie, 34px) - var(--alto-aviso, 0px));
+  padding: 10px 0; overflow: hidden;
+}
+.libro-marco { position: relative; transition: transform .8s cubic-bezier(.4, .1, .2, 1); }
+.libro-marco.sin-transicion { transition: none; }
+.libro-marco.cerrado { transform: translateX(calc(var(--pag-w) * -0.5)); }
+.libro-marco.contracubierta { transform: translateX(calc(var(--pag-w) * 0.5)); }
+.libro-marco.retrato.cerrado, .libro-marco.retrato.contracubierta { transform: none; }
+.libro-marco::before { /* sombra del libro sobre la mesa */
+  content: ''; position: absolute; left: 4%; right: 4%; bottom: -14px; height: 30px;
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, .65), transparent 70%); filter: blur(4px);
+}
+.libro-marco.cerrado::before { left: 52%; right: 2%; }
+.libro-marco.contracubierta::before { left: 2%; right: 52%; }
+.libro-lienzo { position: relative; width: var(--libro-w); height: var(--pag-h); }
+.libro-lienzo .stf__wrapper { position: relative; width: 100%; height: 100%; }
+.libro-lienzo .stf__block { width: 100%; height: 100%; }
+
+.pie {
+  display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: .2rem 1.4rem;
+  min-height: 34px; padding: 4px 12px; margin: 0;
+  font-size: .98rem; color: #e9d9b6; text-align: center;
+}
+.pie p { margin: 0; }
+.pie .ayuda { color: #d9c7a0; }
+
+/* --- Página ---------------------------------------------------------------- */
+.pagina { background: transparent; }
+.pagina__papel {
+  position: absolute; inset: 0; overflow: hidden;
+  display: flex; flex-direction: column;
+  background: #efdfbc url(texturas/pergamino.jpg) center / 100% 100% no-repeat;
+  padding: var(--m-sup) var(--m-ext) var(--m-inf) var(--m-int);
+  font-size: var(--fs); line-height: 1.42;
+}
+.pagina--izq .pagina__papel { padding-left: var(--m-ext); padding-right: var(--m-int); }
+.pagina--der .pagina__papel { padding-left: var(--m-int); padding-right: var(--m-ext); }
+.pagina--izq .pagina__papel::after, .pagina--der .pagina__papel::after { /* sombra del lomo */
+  content: ''; position: absolute; top: 0; bottom: 0; width: 9%; pointer-events: none;
+}
+.pagina--izq .pagina__papel::after { right: 0; background: linear-gradient(to left, rgba(70, 40, 15, .38), rgba(70, 40, 15, .08) 45%, transparent); }
+.pagina--der .pagina__papel::after { left: 0; background: linear-gradient(to right, rgba(70, 40, 15, .38), rgba(70, 40, 15, .08) 45%, transparent); }
+.retrato .pagina--der .pagina__papel::after { width: 4%; }
+
+.pagina__cuerpo { position: relative; flex: 1 1 auto; overflow: hidden; }
+.pagina__cabecera {
+  flex: none; height: 1.6em; margin-bottom: .55em; padding-bottom: .15em;
+  font-family: var(--fuente-versalitas); font-size: .78em; letter-spacing: .12em; color: var(--rojo);
+  text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  border-bottom: 1px solid rgba(110, 60, 25, .45);
+}
+.pagina__cabecera:empty { border-bottom-color: transparent; }
+.pagina__folio {
+  flex: none; height: 1.5em; margin-top: .4em;
+  font-family: var(--fuente-titulos); font-size: .9em; color: var(--tinta-suave); text-align: center;
+}
+.pagina__folio::before, .pagina__folio::after { /* rombo dibujado (sin caracteres) */
+  content: ''; display: inline-block; width: .3em; height: .3em; margin: 0 .6em; vertical-align: .22em;
+  background: var(--rojo); transform: rotate(45deg);
+}
+.pagina__runas {
+  position: absolute; top: var(--m-sup); bottom: var(--m-inf); width: 1.4em;
+  font-family: var(--fuente-runas); font-size: calc(var(--fs) * .92); line-height: 1.4em;
+  writing-mode: vertical-rl; text-orientation: upright; letter-spacing: .4em;
+  color: #6f5032; opacity: .6; overflow: hidden; white-space: nowrap; user-select: none;
+}
+.pagina--izq .pagina__runas { left: calc(var(--m-ext) * .28); }
+.pagina--der .pagina__runas { right: calc(var(--m-ext) * .28); }
+.pagina__runas::before { content: '᛭ '; color: var(--rojo); }
+
+/* Apertura de sección */
+.apertura { text-align: center; margin: 1.2em 0 1.1em; display: flex; flex-direction: column; align-items: center; }
+.apertura > * { width: 100%; }
+.apertura__banda { height: 2.2em; margin: 0 auto .9em; width: 92%; background: url(ornamentos/trenza-tinta.svg) center / auto 100% repeat-x; opacity: .85; }
+.apertura__banda.con-imagen { background-size: contain; background-repeat: no-repeat; background-position: center; height: auto; aspect-ratio: 1920 / 210; opacity: 1; }
+/* Lámina de apertura: en el DOM va detrás del título (orden de lectura), pero se ve arriba */
+.apertura--con-lamina { margin-top: 0; }
+.apertura .fig--apertura { order: -1; margin: 0 0 .9em; }
+.pagina .texto .apertura .fig--apertura img { --alto-max: .5; }
+.apertura--con-lamina .apertura__titulo { font-size: 1.55em; }
+.apertura__etiqueta { margin: 0 0 .35em; font-family: var(--fuente-versalitas); color: var(--rojo); letter-spacing: .22em; font-size: .95em; text-indent: 0 !important; }
+.apertura__titulo { margin: 0 auto; max-width: 92%; font: normal 1.75em/1.12 var(--fuente-titulos); color: var(--tinta); letter-spacing: .01em; text-wrap: balance; }
+.apertura__adorno { height: 1.6em; margin: .7em auto 0; width: 70%; background: url(ornamentos/separador.svg) center / contain no-repeat; }
+
+/* Páginas preliminares */
+.preliminar { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 0 4%; }
+.preliminar p { text-indent: 0; text-align: center; hyphens: manual; }
+.portadilla__marca { font: 3.2em/1 var(--fuente-fraktur); color: var(--rojo-oscuro); margin: 0 0 .2em; }
+.portadilla__runas { font-family: var(--fuente-runas); color: #6f5032; letter-spacing: .35em; font-size: 1.15em; margin: .3em 0 1.6em; }
+.portadilla__titulo { font: normal 2.15em/1.1 var(--fuente-titulos); color: var(--tinta); margin: 0 0 .35em; text-wrap: balance; }
+.portadilla__subtitulo { font: italic 1.15em/1.3 var(--fuente-texto); color: var(--tinta-suave); margin: 0 0 1.2em; }
+.portadilla__emblema { width: 38%; aspect-ratio: 1; background: url(ornamentos/valknut-tinta.svg) center / contain no-repeat; margin: .6em auto 1.2em; }
+.portadilla__pie { font-family: var(--fuente-versalitas); letter-spacing: .14em; color: var(--rojo); font-size: .85em; margin-top: 1.4em; }
+.sello-relleno {
+  display: inline-block; margin-top: 1.2em; padding: .3em .8em; transform: rotate(-3deg);
+  border: 2px solid var(--rojo); color: var(--rojo); font-family: var(--fuente-versalitas); letter-spacing: .1em; font-size: .85em;
+}
+.futhark { display: grid; grid-template-columns: repeat(8, 1fr); gap: .5em .2em; width: 86%; margin: 1.2em auto; }
+.futhark span { font-family: var(--fuente-runas); font-size: 1.6em; color: var(--rojo-oscuro); }
+.instrucciones { text-align: left; }
+.instrucciones h2 { font: normal 1.35em/1.2 var(--fuente-titulos); text-align: center; margin: 0 0 .6em; color: var(--tinta); }
+.instrucciones ul { margin: .3em 0 .6em; padding-left: 1.1em; }
+.instrucciones li { margin: .15em 0; }
+.instrucciones .nota-relleno { margin-top: .8em; padding: .5em .7em; border: 1px solid var(--rojo); color: var(--rojo-oscuro); font-size: .92em; text-indent: 0; text-align: left; }
+
+/* Índice dentro del libro */
+.indice-libro h2 { font: normal 1.6em/1.2 var(--fuente-titulos); text-align: center; margin: .3em 0 .2em; color: var(--tinta); }
+.indice-libro .apertura__adorno { margin-bottom: 1em; }
+.indice-lista { list-style: none; margin: 0; padding: 0; }
+.indice-lista li { margin: 0 0 .5em; }
+.indice-lista a {
+  display: flex; align-items: baseline; gap: .3em; color: var(--tinta); text-decoration: none; line-height: 1.25;
+  padding: .1em .2em; border-radius: 2px;
+}
+.indice-lista a:hover { background: rgba(138, 36, 24, .1); }
+.indice-lista a:focus-visible { box-shadow: none; outline-color: var(--rojo); }
+.indice-lista .et { font-family: var(--fuente-versalitas); color: var(--rojo); font-size: .82em; letter-spacing: .06em; flex: none; }
+.indice-lista .tt { flex: 0 1 auto; }
+.indice-lista .puntos { flex: 1 1 auto; border-bottom: 2px dotted rgba(74, 52, 32, .55); min-width: 1em; transform: translateY(-.25em); }
+.indice-lista .num { flex: none; font-variant-numeric: oldstyle-nums; min-width: 1.6em; text-align: right; }
+
+/* Figuras dentro de páginas */
+/* Tamaño calculado sin esperar a que cargue la imagen (--ar = ancho/alto real del archivo):
+   cabe entera en el ancho y en la altura máxima, sin recortar nunca. */
+.pagina .texto figure img { --alto-max: .56; --ancho-max: 100%; width: min(var(--ancho-max), calc(var(--cuerpo-h) * var(--alto-max) * var(--ar, 1.5))); height: auto; aspect-ratio: var(--ar, 1.5); max-height: none; }
+.pagina .texto figure.fig--vineta img { --alto-max: .42; --ancho-max: 62%; }
+.pagina .texto figure.fig--ajustada img { --alto-max: .78; }
+.lamina { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; }
+.lamina figure { margin: 0; }
+.pagina .texto .lamina figure img { --alto-max: .86; }
+.remate { height: auto; }
+
+/* Panorámica a doble página */
+.pagina--pano .pagina__papel { padding: 0; }
+.pano { position: absolute; top: 50%; transform: translateY(-58%); width: calc(var(--pag-w) * 2 - var(--m-ext) * 2); margin: 0; }
+.pagina--izq .pano { left: var(--m-ext); }
+.pagina--der .pano { left: calc(var(--m-ext) - var(--pag-w)); }
+.pano img { display: block; width: min(100%, calc(var(--pag-h) * .8 * var(--ar, 1.5))); margin: 0 auto; height: auto; aspect-ratio: var(--ar, 1.5); box-shadow: 2px 4px 10px rgba(40, 20, 5, .35); }
+.pano figcaption { position: absolute; left: 0; right: 0; top: calc(100% + 1.1em); text-align: center; font-style: italic; color: var(--tinta-suave); font-size: var(--fs); }
+.pagina--der .pano figcaption { left: var(--pag-w); right: 0; }
+.pagina--izq .pano figcaption { display: none; }
+
+/* --- Cubiertas de cuero --------------------------------------------------- */
+.cuero {
+  position: absolute; inset: 0; overflow: hidden;
+  background: #3d1d11 url(texturas/cuero.jpg) center / cover no-repeat;
+  color: var(--oro-claro); text-align: center;
+  box-shadow: inset 0 0 0 1px #1a0a04, inset 0 0 40px rgba(0, 0, 0, .6);
+}
+.cuero--der { border-radius: 2px 10px 10px 2px; }
+.cuero--izq { border-radius: 10px 2px 2px 10px; }
+.cuero__marco { position: absolute; inset: 5.5%; }
+.cuero__marco .lado { position: absolute; }
+.cuero__marco .arriba, .cuero__marco .abajo { left: 0; right: 0; height: 26px; background: url(ornamentos/trenza.svg) center / auto 100% repeat-x; }
+.cuero__marco .arriba { top: 0; } .cuero__marco .abajo { bottom: 0; }
+.cuero__marco .izq, .cuero__marco .der { top: 0; bottom: 0; width: 26px; background: url(ornamentos/trenza-v.svg) center / 100% auto repeat-y; }
+.cuero__marco .izq { left: 0; } .cuero__marco .der { right: 0; }
+.cuero__marco .esq { width: 46px; height: 46px; background: url(ornamentos/esquina.svg) center / contain no-repeat; z-index: 1; }
+.cuero__marco .e1 { top: -10px; left: -10px; } .cuero__marco .e2 { top: -10px; right: -10px; }
+.cuero__marco .e3 { bottom: -10px; left: -10px; } .cuero__marco .e4 { bottom: -10px; right: -10px; }
+.cuero__lomo { position: absolute; top: 0; bottom: 0; width: 7%; background: linear-gradient(to right, rgba(0, 0, 0, .55), rgba(255, 220, 160, .08) 60%, rgba(0, 0, 0, .25)); }
+.cuero--der .cuero__lomo { left: 0; } .cuero--izq .cuero__lomo { right: 0; transform: scaleX(-1); }
+.cuero__contenido { position: absolute; inset: 11% 13%; display: flex; flex-direction: column; align-items: center; justify-content: space-between; }
+.dorado { color: #ecc96e; text-shadow: 0 1px 0 #2a1206, 0 -1px 0 rgba(255, 240, 190, .35), 0 0 12px rgba(0, 0, 0, .4); }
+.cubierta__marca { font: calc(var(--fs) * 3.4)/1 var(--fuente-fraktur); margin: 0; }
+.cubierta__runas { font-family: var(--fuente-runas); letter-spacing: .4em; font-size: calc(var(--fs) * 1.05); margin: .3em 0 0; opacity: .9; }
+.cubierta__titulo { font: normal calc(var(--fs) * 1.95)/1.08 var(--fuente-titulos); margin: 0; text-wrap: balance; }
+.cubierta__subtitulo { font: italic calc(var(--fs) * 1.08)/1.3 var(--fuente-texto); margin: .5em 0 0; color: #e8cf93; }
+.cubierta__placa {
+  position: relative; margin: 4% auto; flex: 0 1 auto; max-height: 50%; display: flex; align-items: center; justify-content: center;
+}
+.cubierta__placa img {
+  display: block; max-width: 100%; max-height: calc(var(--pag-h) * .4); width: auto; height: auto;
+  object-fit: contain; /* la orla pintada de la lámina se ve entera */
+  border: 2px solid #b8903f; box-shadow: 0 0 0 2px #2a1206, 0 0 0 4px #d4af5a, 0 6px 18px rgba(0, 0, 0, .7);
+}
+.cubierta__emblema { width: calc(var(--pag-w) * .44); aspect-ratio: 1; background: url(ornamentos/emblema.svg) center / contain no-repeat; filter: drop-shadow(0 2px 1px #1a0904) drop-shadow(0 -1px 0 rgba(255, 230, 170, .3)); }
+.cubierta__invitacion { font: italic calc(var(--fs) * .85)/1.3 var(--fuente-texto); color: #f0dcae; margin: .9em 0 0; }
+.contracubierta__texto { font: italic calc(var(--fs) * 1)/1.45 var(--fuente-texto); color: #f0dcae; max-width: 90%; text-wrap: pretty; }
+.contracubierta__emblema { width: calc(var(--pag-w) * .22); aspect-ratio: 1; background: url(ornamentos/valknut.svg) center / contain no-repeat; margin: 0 auto; }
+.guarda { position: absolute; inset: 0; background: #22302b url(texturas/guarda.jpg) center / cover no-repeat; }
+.guarda__exlibris {
+  position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 58%; padding: 1.2em 1em;
+  background: #efdfbc url(texturas/pergamino.jpg) center / cover; color: var(--tinta); text-align: center;
+  border: 1px solid #5a3a1c; box-shadow: 0 0 0 4px #efdfbc, 0 0 0 5.5px #5a3a1c, 0 6px 16px rgba(0, 0, 0, .55);
+}
+.guarda__exlibris p { margin: 0; text-indent: 0; text-align: center; }
+.guarda__exlibris .ex { font-family: var(--fuente-versalitas); color: var(--rojo); letter-spacing: .2em; font-size: .85em; }
+.guarda__exlibris .nombre { font: 2.1em/1.1 var(--fuente-fraktur); color: var(--rojo-oscuro); margin: .15em 0; }
+
+/* Página en blanco con adorno */
+.blanca__adorno { position: absolute; left: 50%; top: 46%; width: 22%; aspect-ratio: 1; transform: translate(-50%, -50%); background: url(ornamentos/valknut-tinta.svg) center / contain no-repeat; opacity: .35; }
+
+/* Fin */
+.fin__palabra { font: 2.6em/1 var(--fuente-fraktur); color: var(--rojo-oscuro); margin: .2em 0 .4em; }
+.colofon { font-size: .86em; color: var(--tinta-suave); line-height: 1.4; max-width: 90%; }
+
+/* Diálogo del índice */
+.dialogo {
+  width: min(92vw, 620px); max-height: 86vh; padding: 0; border: 2px solid #6b4a17; border-radius: 6px;
+  background: #efdfbc url(texturas/pergamino.jpg) center / cover; color: var(--tinta);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, .8);
+}
+.dialogo::backdrop { background: rgba(10, 5, 2, .72); }
+.dialogo__interior { padding: 1.2rem 1.4rem 1rem; font-size: 1.1rem; }
+.dialogo h2 { font: normal 1.6rem/1.2 var(--fuente-titulos); margin: 0 0 .7rem; text-align: center; }
+.dialogo ol { list-style: none; margin: 0; padding: 0; max-height: 60vh; overflow: auto; }
+.dialogo li { margin: 0 0 .25rem; }
+.dialogo ol button {
+  width: 100%; display: flex; gap: .5em; align-items: baseline; text-align: left; padding: .45em .6em;
+  font: inherit; color: var(--tinta); background: transparent; border: 1px solid transparent; border-radius: 3px; cursor: pointer;
+}
+.dialogo ol button:hover { background: rgba(138, 36, 24, .1); border-color: rgba(138, 36, 24, .35); }
+.dialogo ol button:focus-visible { outline-color: var(--rojo); box-shadow: none; }
+.dialogo .et { font-family: var(--fuente-versalitas); color: var(--rojo); flex: none; min-width: 6.5em; }
+.dialogo .tt { flex: 1; }
+.dialogo .num { flex: none; color: var(--tinta-suave); }
+.dialogo .acciones { display: flex; justify-content: flex-end; margin-top: .9rem; }
+
+/* Medidor oculto para paginar */
+.medidor { position: absolute; left: -10000px; top: 0; visibility: hidden; contain: layout style; }
+.medidor .pagina { position: relative; width: var(--pag-w); height: var(--pag-h); }
+
+/* Carga */
+.cargando { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font: italic 1.2rem var(--fuente-texto); color: #e9d9b6; }
+
+/* --- Móvil ---------------------------------------------------------------- */
+@media (max-width: 760px) {
+  .barra { padding: 6px 8px; gap: 4px; justify-content: center; }
+  .barra__titulo { margin-left: 0; max-width: 100%; font-size: 1rem; width: 100%; text-align: center; }
+  .controles { justify-content: center; width: 100%; gap: 4px; }
+  .boton { min-height: 40px; padding: .3em .55em; font-size: .95rem; }
+  .boton .txt-largo { display: none; }
+  .pie .ayuda { display: none; }
+  .saltar-accesible { font-size: .95rem; padding: .35em .7em; }
+}
+
+/* --- Movimiento reducido: nada de transiciones ---------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
+}
