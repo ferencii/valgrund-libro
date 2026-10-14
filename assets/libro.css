@@ -176,7 +176,7 @@
 .texto { font-family: var(--fuente-texto); color: var(--tinta); font-kerning: normal; font-variant-ligatures: common-ligatures; }
 .texto p { margin: 0; text-indent: 1.35em; text-align: justify; hyphens: auto; -webkit-hyphens: auto; orphans: 2; widows: 2; }
 .texto p.sin-sangria, .texto p.continua,
-.texto :is(h2, h3, .separador, figure, .cita, .entradilla, .apertura, .lista) + p { text-indent: 0; }
+.texto :is(h2, h3, .separador, .fig, .cita, .entradilla, .apertura, .lista) + p { text-indent: 0; }
 .texto p.corta { text-align-last: justify; }
 .texto em { font-style: italic; }
 .texto strong { font-weight: 600; }
@@ -211,8 +211,8 @@
 .texto .cita.estrofa p:first-child:not(:only-child) { font-style: normal; font-family: var(--fuente-versalitas); color: var(--rojo); letter-spacing: .05em; margin-left: -1.3em; text-align: center; }
 .texto .cita.estrofa p:first-child em { font-style: normal; }
 .texto .cita.estrofa p { white-space: pre-wrap; }
-/* Cesura del verso: el espacio amplio del original se conserva (carácter U+2003) y se ensancha un poco */
-.texto .cesura { display: inline-block; width: 1.6em; white-space: pre; }
+/* Cesura del verso: un espacio normal que el CSS ensancha (el texto extraído y el lector oyen un espacio) */
+.texto .cesura { word-spacing: 1.35em; }
 
 .texto .lista { margin: .4em 0 .6em 1.2em; }
 .texto .lista ul, .texto .lista ol { margin: 0; padding-left: 1em; }
@@ -223,15 +223,15 @@
 .texto .separador.con-banda { height: auto; aspect-ratio: 1920 / 210; width: 82%; margin: .6em auto; background-size: contain; background-position: center; }
 
 /* Ilustraciones */
-.texto figure { margin: .7em 0 .8em; text-align: center; break-inside: avoid; }
-.texto figure img {
+.texto .fig { margin: .7em 0 .8em; text-align: center; break-inside: avoid; }
+.texto .fig img {
   /* Las láminas traen su orla pintada: nunca se recortan (tamaño natural escalado, sin object-fit: cover) */
   display: block; margin: 0 auto; max-width: 100%; height: auto; object-fit: contain;
   box-shadow: 1px 2px 6px rgba(40, 20, 5, .28);
 }
-.texto figure.fig--vineta img { max-width: 58%; }
-.texto figcaption { margin-top: .55em; font-style: italic; font-size: .88em; color: var(--tinta-suave); text-align: center; line-height: 1.3; hyphens: manual; }
-.texto figure.fig--marcador figcaption::before { content: ''; }
+.texto .fig.fig--vineta img { max-width: 58%; }
+.texto :is(figcaption, .pie-figura) { margin-top: .55em; font-style: italic; font-size: .88em; color: var(--tinta-suave); text-align: center; line-height: 1.3; hyphens: manual; }
+.texto .fig.fig--marcador :is(figcaption, .pie-figura)::before { content: ''; }
 
 /* Remate decorativo de fin de sección */
 .texto .remate { margin: .9em auto 0; width: 30%; aspect-ratio: 1; background-size: contain; background-repeat: no-repeat; background-position: center; }
@@ -281,7 +281,7 @@ body.con-scroll { overflow: auto; }
   margin: 0; font: normal 1.1rem/1.15 var(--fuente-titulos); color: var(--oro-claro);
   letter-spacing: .02em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 40vw;
 }
-.barra__titulo .marca { font-family: var(--fuente-fraktur); font-size: 1.3em; margin-right: .35em; color: var(--oro); }
+.barra__titulo .marca { font-family: var(--fuente-fraktur); font-size: 1.3em; margin-right: .15em; color: var(--oro); }
 .controles { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; padding: 0; list-style: none; }
 .boton {
   display: inline-flex; align-items: center; gap: .4em;
@@ -313,6 +313,8 @@ body.con-scroll { overflow: auto; }
 }
 .libro-marco { position: relative; transition: transform .8s cubic-bezier(.4, .1, .2, 1); }
 .libro-marco.sin-transicion { transition: none; }
+.libro-marco:focus { outline: none; }
+.libro-marco:focus-visible { outline: 3px solid var(--foco); outline-offset: 6px; border-radius: 4px; }
 .libro-marco.cerrado { transform: translateX(calc(var(--pag-w) * -0.5)); }
 .libro-marco.contracubierta { transform: translateX(calc(var(--pag-w) * 0.5)); }
 .libro-marco.retrato.cerrado, .libro-marco.retrato.contracubierta { transform: none; }
@@ -491,7 +493,7 @@ body.con-scroll { overflow: auto; }
 .guarda { position: absolute; inset: 0; background: #22302b url(texturas/guarda.jpg) center / cover no-repeat; }
 .guarda__exlibris {
   position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 58%; padding: 1.2em 1em;
-  background: #efdfbc url(texturas/pergamino.jpg) center / cover; color: var(--tinta); text-align: center;
+  background: #f3e6c8; color: var(--tinta); /* fondo liso: contraste igual en todo el diálogo */ text-align: center;
   border: 1px solid #5a3a1c; box-shadow: 0 0 0 4px #efdfbc, 0 0 0 5.5px #5a3a1c, 0 6px 16px rgba(0, 0, 0, .55);
 }
 .guarda__exlibris p { margin: 0; text-indent: 0; text-align: center; }
@@ -508,7 +510,7 @@ body.con-scroll { overflow: auto; }
 /* Diálogo del índice */
 .dialogo {
   width: min(92vw, 620px); max-height: 86vh; padding: 0; border: 2px solid #6b4a17; border-radius: 6px;
-  background: #efdfbc url(texturas/pergamino.jpg) center / cover; color: var(--tinta);
+  background: #f3e6c8; color: var(--tinta); /* fondo liso: contraste igual en todo el diálogo */
   box-shadow: 0 10px 40px rgba(0, 0, 0, .8);
 }
 .dialogo::backdrop { background: rgba(10, 5, 2, .72); }
@@ -522,9 +524,9 @@ body.con-scroll { overflow: auto; }
 }
 .dialogo ol button:hover { background: rgba(138, 36, 24, .1); border-color: rgba(138, 36, 24, .35); }
 .dialogo ol button:focus-visible { outline-color: var(--rojo); box-shadow: none; }
-.dialogo .et { font-family: var(--fuente-versalitas); color: var(--rojo); flex: none; min-width: 6.5em; }
+.dialogo .et { font-family: var(--fuente-versalitas); color: #6a170e; flex: none; min-width: 6.5em; }
 .dialogo .tt { flex: 1; }
-.dialogo .num { flex: none; color: var(--tinta-suave); }
+.dialogo .num { flex: none; color: #3a2817; }
 .dialogo .acciones { display: flex; justify-content: flex-end; margin-top: .9rem; }
 
 /* Medidor oculto para paginar */

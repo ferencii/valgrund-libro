@@ -176,7 +176,7 @@
 .texto { font-family: var(--fuente-texto); color: var(--tinta); font-kerning: normal; font-variant-ligatures: common-ligatures; }
 .texto p { margin: 0; text-indent: 1.35em; text-align: justify; hyphens: auto; -webkit-hyphens: auto; orphans: 2; widows: 2; }
 .texto p.sin-sangria, .texto p.continua,
-.texto :is(h2, h3, .separador, figure, .cita, .entradilla, .apertura, .lista) + p { text-indent: 0; }
+.texto :is(h2, h3, .separador, .fig, .cita, .entradilla, .apertura, .lista) + p { text-indent: 0; }
 .texto p.corta { text-align-last: justify; }
 .texto em { font-style: italic; }
 .texto strong { font-weight: 600; }
@@ -211,8 +211,8 @@
 .texto .cita.estrofa p:first-child:not(:only-child) { font-style: normal; font-family: var(--fuente-versalitas); color: var(--rojo); letter-spacing: .05em; margin-left: -1.3em; text-align: center; }
 .texto .cita.estrofa p:first-child em { font-style: normal; }
 .texto .cita.estrofa p { white-space: pre-wrap; }
-/* Cesura del verso: el espacio amplio del original se conserva (carácter U+2003) y se ensancha un poco */
-.texto .cesura { display: inline-block; width: 1.6em; white-space: pre; }
+/* Cesura del verso: un espacio normal que el CSS ensancha (el texto extraído y el lector oyen un espacio) */
+.texto .cesura { word-spacing: 1.35em; }
 
 .texto .lista { margin: .4em 0 .6em 1.2em; }
 .texto .lista ul, .texto .lista ol { margin: 0; padding-left: 1em; }
@@ -223,15 +223,15 @@
 .texto .separador.con-banda { height: auto; aspect-ratio: 1920 / 210; width: 82%; margin: .6em auto; background-size: contain; background-position: center; }
 
 /* Ilustraciones */
-.texto figure { margin: .7em 0 .8em; text-align: center; break-inside: avoid; }
-.texto figure img {
+.texto .fig { margin: .7em 0 .8em; text-align: center; break-inside: avoid; }
+.texto .fig img {
   /* Las láminas traen su orla pintada: nunca se recortan (tamaño natural escalado, sin object-fit: cover) */
   display: block; margin: 0 auto; max-width: 100%; height: auto; object-fit: contain;
   box-shadow: 1px 2px 6px rgba(40, 20, 5, .28);
 }
-.texto figure.fig--vineta img { max-width: 58%; }
-.texto figcaption { margin-top: .55em; font-style: italic; font-size: .88em; color: var(--tinta-suave); text-align: center; line-height: 1.3; hyphens: manual; }
-.texto figure.fig--marcador figcaption::before { content: ''; }
+.texto .fig.fig--vineta img { max-width: 58%; }
+.texto :is(figcaption, .pie-figura) { margin-top: .55em; font-style: italic; font-size: .88em; color: var(--tinta-suave); text-align: center; line-height: 1.3; hyphens: manual; }
+.texto .fig.fig--marcador :is(figcaption, .pie-figura)::before { content: ''; }
 
 /* Remate decorativo de fin de sección */
 .texto .remate { margin: .9em auto 0; width: 30%; aspect-ratio: 1; background-size: contain; background-repeat: no-repeat; background-position: center; }
@@ -295,8 +295,8 @@ body { margin: 0; font-size: 11.2pt; line-height: 1.42; background: transparent;
 .portadilla__titulo { font: normal 26pt/1.1 var(--fuente-titulos); color: var(--tinta); margin: 0 0 4mm; }
 .portadilla__subtitulo { font: italic 14pt/1.3 var(--fuente-texto); color: var(--tinta-suave); margin: 0 0 10mm; }
 .portadilla__emblema { width: 40mm; height: 40mm; background: url(ornamentos/valknut-tinta.svg) center / contain no-repeat; margin: 6mm auto 10mm; }
-.portadilla__pie { font-family: var(--fuente-versalitas); letter-spacing: .14em; color: var(--rojo); font-size: 10pt; margin-top: 10mm; }
-.sello-relleno { display: inline-block; margin-top: 8mm; padding: 1.5mm 4mm; transform: rotate(-3deg); border: .6mm solid var(--rojo); color: var(--rojo); font-family: var(--fuente-versalitas); letter-spacing: .1em; font-size: 10pt; }
+.portadilla__pie { font-family: var(--fuente-versalitas); color: var(--rojo); font-size: 10pt; margin-top: 10mm; }
+.sello-relleno { display: inline-block; margin-top: 8mm; padding: 1.5mm 4mm; transform: rotate(-3deg); border: .6mm solid var(--rojo); color: var(--rojo); font-family: var(--fuente-versalitas); font-size: 10pt; }
 
 /* Índice */
 .indice-pdf { page: preliminar; }
@@ -305,7 +305,7 @@ body { margin: 0; font-size: 11.2pt; line-height: 1.42; background: transparent;
 .indice-pdf ol { list-style: none; margin: 0; padding: 0; }
 .indice-pdf li { margin: 0 0 3mm; }
 .indice-pdf a { display: flex; align-items: baseline; gap: 2mm; color: var(--tinta); text-decoration: none; }
-.indice-pdf .et { font-family: var(--fuente-versalitas); color: var(--rojo); font-size: 9.5pt; letter-spacing: .06em; flex: none; }
+.indice-pdf .et { font-family: var(--fuente-versalitas); color: var(--rojo); font-size: 9.5pt; flex: none; }
 .indice-pdf .puntos { flex: 1 1 auto; border-bottom: .5mm dotted rgba(74, 52, 32, .6); transform: translateY(-1mm); min-width: 5mm; }
 .indice-pdf .num { flex: none; }
 
@@ -315,7 +315,7 @@ body { margin: 0; font-size: 11.2pt; line-height: 1.42; background: transparent;
 .apertura > * { width: 100%; }
 .apertura__banda { height: 8mm; margin: 0 auto 6mm; width: 92%; background: url(ornamentos/trenza-tinta.svg) center / auto 100% repeat-x; opacity: .85; }
 .apertura__banda.con-imagen { background-size: contain; background-repeat: no-repeat; background-position: center; height: auto; aspect-ratio: 1920 / 210; opacity: 1; }
-.apertura__etiqueta { margin: 0 0 2mm; font-family: var(--fuente-versalitas); color: var(--rojo); letter-spacing: .22em; font-size: 11pt; }
+.apertura__etiqueta { margin: 0 0 2mm; font-family: var(--fuente-versalitas); color: var(--rojo); word-spacing: .2em; font-size: 11pt; }
 .apertura__titulo { margin: 0 auto; font: normal 22pt/1.12 var(--fuente-titulos); color: var(--tinta); max-width: 92%; }
 .apertura__adorno { height: 6mm; margin: 5mm auto 0; width: 60%; background: url(ornamentos/separador.svg) center / contain no-repeat; }
 /* Lámina de apertura: arriba de la página de apertura (en el DOM, tras el título) */
@@ -325,12 +325,12 @@ body { margin: 0; font-size: 11.2pt; line-height: 1.42; background: transparent;
 .texto .apertura .fig--apertura img { width: 100%; max-height: 90mm; object-fit: contain; }
 
 /* Ilustraciones: tamaño natural escalado, nunca recortadas */
-.texto figure img { width: 100%; height: auto; max-height: 150mm; object-fit: contain; box-shadow: none; } /* sin sombras difuminadas: Chromium las rasteriza */
-.texto figure.fig--vineta img { width: 62%; }
-.texto figure { position: relative; }
-.texto figure.fig--panoramica { margin: 5mm -9mm 6mm; }
-.texto figure.fig--lamina { page: lamina; break-before: page; break-after: page; height: 190mm; display: flex; flex-direction: column; justify-content: center; margin: 0; }
-.texto figure.fig--lamina img { max-height: 175mm; }
+.texto .fig img { width: 100%; height: auto; max-height: 150mm; object-fit: contain; box-shadow: none; } /* sin sombras difuminadas: Chromium las rasteriza */
+.texto .fig.fig--vineta img { width: 62%; }
+.texto .fig { position: relative; }
+.texto .fig.fig--panoramica { margin: 5mm -9mm 6mm; }
+.texto .fig.fig--lamina { page: lamina; break-before: page; break-after: page; height: 190mm; display: flex; flex-direction: column; justify-content: center; margin: 0; }
+.texto .fig.fig--lamina img { max-height: 175mm; }
 .texto .separador.con-banda { width: 78%; margin: 3.5mm auto; }
 .remate { width: 30mm !important; height: 30mm; margin: 6mm auto 0; break-before: avoid; }
 
@@ -352,3 +352,6 @@ body { margin: 0; font-size: 11.2pt; line-height: 1.42; background: transparent;
 /* Títulos y separadores no se quedan solos al pie de página; las estrofas no se parten */
 .texto h3, .texto .separador { break-after: avoid; }
 .texto .cita.estrofa { break-inside: avoid; }
+/* PDF: sin espaciado entre letras en el texto (pdftotext y los lectores lo extraerían como «V a l g r u n d»).
+   Las runas son trazos SVG, no texto. */
+.texto :is(h3, .cita.estrofa p:first-child), .portadilla__pie, .sello-relleno, .apertura__etiqueta, .indice-pdf .et { letter-spacing: normal !important; }
